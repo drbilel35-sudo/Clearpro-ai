@@ -1,0 +1,1456 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ============================================================
+       META TAGS FOR GOOGLE SEARCH
+       ============================================================ -->
+  <title>ClearPro AI · Next-Gen Clinical Intelligence Platform</title>
+  <meta name="description" content="ClearPro AI delivers enterprise-grade clinical decision support powered by adaptive AI, real-time data fusion, and explainable models. Transforming healthcare with intelligent case orchestration." />
+  <meta name="keywords" content="AI healthcare, clinical decision support, medical AI, clinical intelligence, adaptive AI, healthcare technology, precision medicine, AI diagnostics, ClearPro AI" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.clearpro-ai.com/" />
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="ClearPro AI · Next-Gen Clinical Intelligence Platform" />
+  <meta property="og:description" content="Enterprise-grade clinical decision support powered by adaptive AI, real-time data fusion, and explainable models. Transforming healthcare with intelligent case orchestration." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.clearpro-ai.com/" />
+  <meta property="og:image" content="https://www.clearpro-ai.com/logo-512.png" />
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ClearPro AI · Next-Gen Clinical Intelligence Platform" />
+  <meta name="twitter:description" content="Enterprise-grade clinical decision support powered by adaptive AI, real-time data fusion, and explainable models." />
+  <meta name="twitter:image" content="https://www.clearpro-ai.com/logo-512.png" />
+
+  <!-- ============================================================
+       FAVICON LINKS (Updated)
+       ============================================================ -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="/logo-32.png" />
+  <link rel="apple-touch-icon" href="/logo-180.png" />
+
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#0090C9" />
+
+  <!-- ============================================================
+       JSON-LD STRUCTURED DATA (Google Schema)
+       ============================================================ -->
+  
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ClearPro AI",
+    "url": "https://www.clearpro-ai.com/",
+    "logo": "https://www.clearpro-ai.com/logo-512.png",
+    "image": "https://www.clearpro-ai.com/logo-512.png",
+    "description": "ClearPro AI develops advanced artificial intelligence solutions for clinical intelligence, healthcare innovation, and research.",
+    "sameAs": [
+      "https://www.clearpro-ortho.com",
+      "https://www.nda-institute.org"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-888-555-0199",
+      "contactType": "Sales",
+      "availableLanguage": ["English"]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "88 Innovation Drive",
+      "addressLocality": "Cambridge",
+      "addressRegion": "MA",
+      "postalCode": "02139",
+      "addressCountry": "US"
+    }
+  }
+  </script>
+
+  <!-- WebSite Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ClearPro AI",
+    "url": "https://www.clearpro-ai.com/",
+    "description": "Enterprise-grade clinical decision support powered by adaptive AI, real-time data fusion, and explainable models.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.clearpro-ai.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Product Schema – with image field added -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "ClearPro AI Clinical Intelligence Platform",
+    "image": "https://www.clearpro-ai.com/logo-512.png",
+    "description": "Enterprise-grade clinical decision support system powered by adaptive AI, real-time data fusion, and explainable models for healthcare professionals.",
+    "brand": {
+      "@type": "Brand",
+      "name": "ClearPro AI"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  
+  <!-- Google Fonts: Inter + Orbitron -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+  
+  <style>
+    /* ============================================================
+       RESET & BASE
+       ============================================================ */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', 'Segoe UI', sans-serif;
+      background: #f0f5fc;
+      color: #1a2639;
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -2;
+      background: radial-gradient(circle at 10% 20%, rgba(0, 144, 201, 0.04) 0%, transparent 50%),
+                  radial-gradient(circle at 90% 80%, rgba(79, 179, 231, 0.06) 0%, transparent 50%);
+    }
+
+    /* ============================================================
+       HEADER
+       ============================================================ */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(8, 15, 31, 0.82);
+      backdrop-filter: blur(18px) saturate(180%);
+      -webkit-backdrop-filter: blur(18px) saturate(180%);
+      padding: 10px 44px;
+      border-bottom: 1px solid rgba(79, 179, 231, 0.12);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      transition: all 0.3s ease;
+    }
+
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 10%;
+      width: 80%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #4FB3E7, #0090C9, #4FB3E7, transparent);
+      background-size: 300% 100%;
+      animation: shimmer-line 4s ease-in-out infinite;
+    }
+
+    @keyframes shimmer-line {
+      0% { background-position: 0% 0%; }
+      50% { background-position: 100% 0%; }
+      100% { background-position: 0% 0%; }
+    }
+
+    .logo-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .header img {
+      height: 48px;
+      width: auto;
+      filter: drop-shadow(0 0 20px rgba(0, 144, 201, 0.25));
+      border-radius: 10px;
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      object-fit: contain;
+    }
+
+    .header img:hover {
+      transform: scale(1.06) rotate(-2deg);
+      filter: drop-shadow(0 0 35px rgba(0, 144, 201, 0.4));
+    }
+
+    .header-text h1 {
+      font-family: 'Orbitron', monospace;
+      font-weight: 900;
+      font-size: 1.7rem;
+      margin: 0;
+      background: linear-gradient(135deg, #ffffff 0%, #80c8f0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 0.04em;
+      text-shadow: 0 0 40px rgba(0, 144, 201, 0.1);
+    }
+
+    .header-text .tagline {
+      color: rgba(180, 215, 255, 0.7);
+      font-size: 0.78rem;
+      font-weight: 400;
+      margin: 2px 0 0 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      letter-spacing: 0.5px;
+    }
+
+    .header-text .tagline .ai-pulse {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(0, 144, 201, 0.12);
+      padding: 2px 14px 2px 10px;
+      border-radius: 40px;
+      border: 1px solid rgba(79, 179, 231, 0.12);
+      font-size: 0.65rem;
+      font-weight: 600;
+      color: #8fcbff;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      font-family: 'Orbitron', monospace;
+    }
+
+    .header-text .tagline .ai-pulse i {
+      font-size: 0.45rem;
+      color: #4FB3E7;
+      animation: pulse-dot 1.6s ease-in-out infinite;
+    }
+
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 0.3; transform: scale(0.7); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 2;
+    }
+
+    .nav-links a {
+      color: rgba(255, 255, 255, 0.65);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.82rem;
+      padding: 8px 18px;
+      border-radius: 60px;
+      transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+      background: transparent;
+      border: 1px solid transparent;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      letter-spacing: 0.2px;
+    }
+
+    .nav-links a i {
+      font-size: 0.75rem;
+      opacity: 0.5;
+      transition: all 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: white;
+      background: rgba(79, 179, 231, 0.08);
+      border-color: rgba(79, 179, 231, 0.10);
+      transform: translateY(-2px);
+    }
+
+    .nav-links a.active {
+      color: white;
+      background: rgba(79, 179, 231, 0.12);
+      border-color: rgba(79, 179, 231, 0.15);
+      box-shadow: 0 4px 20px rgba(0, 144, 201, 0.08);
+    }
+
+    .nav-links a.active i {
+      opacity: 1;
+      color: #4FB3E7;
+    }
+
+    .header-status {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .header-status .ai-indicator {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: rgba(180, 215, 255, 0.6);
+      background: rgba(0, 144, 201, 0.04);
+      padding: 6px 16px 6px 12px;
+      border-radius: 60px;
+      border: 1px solid rgba(79, 179, 231, 0.06);
+      font-family: 'Orbitron', monospace;
+      letter-spacing: 0.4px;
+    }
+
+    .header-status .ai-indicator .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #4FB3E7;
+      box-shadow: 0 0 16px rgba(79, 179, 231, 0.5);
+      animation: pulse-dot 2s ease-in-out infinite;
+    }
+
+    .header-status .ai-indicator strong {
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: 700;
+    }
+
+    /* ============================================================
+       MAIN CONTAINER
+       ============================================================ */
+    .main-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 40px 32px 50px;
+      width: 100%;
+      flex: 1;
+    }
+
+    .page {
+      display: none;
+      animation: fadeSlide 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .page.active-page {
+      display: block;
+    }
+
+    @keyframes fadeSlide {
+      0% { opacity: 0; transform: translateY(18px) scale(0.98); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    /* ============================================================
+       HOME PAGE
+       ============================================================ */
+    .welcome-section {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 44px;
+    }
+
+    .welcome-section .badge-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 4px;
+    }
+
+    .welcome-section .badge-row span {
+      background: rgba(0, 144, 201, 0.06);
+      border: 1px solid rgba(0, 144, 201, 0.08);
+      padding: 4px 18px;
+      border-radius: 60px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #1a4b6d;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      font-family: 'Orbitron', monospace;
+    }
+
+    .welcome-section h2 {
+      font-family: 'Orbitron', monospace;
+      font-weight: 900;
+      font-size: 3rem;
+      background: linear-gradient(135deg, #080f1f 0%, #1a4b6d 60%, #4FB3E7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -0.02em;
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .welcome-section h2 i {
+      background: linear-gradient(135deg, #0a2a44, #2b7bb6);
+      color: white;
+      font-size: 2rem;
+      padding: 12px 14px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 144, 201, 0.2);
+      -webkit-text-fill-color: white;
+    }
+
+    .welcome-section .subhead {
+      font-size: 1.1rem;
+      color: #1f3f5c;
+      max-width: 780px;
+      border-left: 4px solid #4FB3E7;
+      padding-left: 26px;
+      background: linear-gradient(90deg, rgba(43, 123, 182, 0.04), transparent);
+      border-radius: 0 12px 12px 0;
+      line-height: 1.8;
+    }
+
+    .welcome-section .subhead strong {
+      color: #0a2a44;
+      font-weight: 700;
+      background: linear-gradient(135deg, #0a2a44, #2b7bb6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .innovation-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+      margin: 48px 0 40px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px) saturate(180%);
+      -webkit-backdrop-filter: blur(12px) saturate(180%);
+      padding: 28px 24px 24px;
+      border-radius: 32px;
+      box-shadow: 0 8px 32px rgba(10, 42, 68, 0.04);
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.01);
+      box-shadow: 0 24px 56px -12px rgba(0, 144, 201, 0.18);
+      border-color: rgba(79, 179, 231, 0.15);
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    .card-icon {
+      font-size: 2.2rem;
+      color: #0a2a44;
+      background: linear-gradient(135deg, #e7f0f9, #f0f7fc);
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      transition: all 0.4s;
+    }
+
+    .card:hover .card-icon {
+      background: linear-gradient(135deg, #0a2a44, #2b7bb6);
+      color: white;
+      transform: scale(1.05);
+      box-shadow: 0 8px 24px rgba(0, 144, 201, 0.2);
+    }
+
+    .card h3 {
+      font-family: 'Orbitron', monospace;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #0a1e30;
+      margin: 8px 0 4px;
+      letter-spacing: 0.3px;
+    }
+
+    .card p {
+      color: #2a4a68;
+      font-size: 0.92rem;
+      line-height: 1.7;
+      margin: 6px 0 12px;
+    }
+
+    .card .pill {
+      background: rgba(0, 144, 201, 0.06);
+      color: #1a4b6d;
+      padding: 4px 16px;
+      border-radius: 40px;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      align-self: flex-start;
+      margin-top: 4px;
+      font-family: 'Orbitron', monospace;
+      border: 1px solid rgba(0, 144, 201, 0.06);
+    }
+
+    .ai-callout {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px 30px;
+      background: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 16px 28px;
+      border-radius: 60px;
+      align-items: center;
+      margin: 16px 0 8px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    }
+
+    .ai-callout span {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+      color: #0a2a44;
+    }
+
+    .ai-callout .metric {
+      color: #1a4b6d;
+      font-size: 0.9rem;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .ai-callout .metric i {
+      color: #0a2a44;
+    }
+
+    .ai-callout .version-tag {
+      margin-left: auto;
+      font-size: 0.7rem;
+      background: linear-gradient(135deg, #0a2a44, #2b7bb6);
+      color: white;
+      padding: 4px 20px;
+      border-radius: 40px;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      font-family: 'Orbitron', monospace;
+      box-shadow: 0 4px 16px rgba(0, 144, 201, 0.15);
+    }
+
+    /* ============================================================
+       ECOSYSTEM SECTION
+       ============================================================ */
+    .ecosystem-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 28px;
+      margin: 48px 0 32px;
+    }
+
+    .ecosystem-card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 28px;
+      padding: 32px 28px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 8px 24px rgba(10, 42, 68, 0.04);
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      text-align: center;
+    }
+
+    .ecosystem-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 48px rgba(0, 144, 201, 0.08);
+      border-color: rgba(79, 179, 231, 0.12);
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    .ecosystem-card .icon-wrap {
+      font-size: 2.8rem;
+      color: #0a2a44;
+      background: linear-gradient(135deg, #e7f0f9, #f0f7fc);
+      width: 72px;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 24px;
+      margin: 0 auto 16px;
+      transition: all 0.4s;
+    }
+
+    .ecosystem-card:hover .icon-wrap {
+      background: linear-gradient(135deg, #0a2a44, #2b7bb6);
+      color: white;
+      transform: scale(1.05);
+    }
+
+    .ecosystem-card h3 {
+      font-family: 'Orbitron', monospace;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #0a1e30;
+      margin-bottom: 6px;
+      letter-spacing: 0.3px;
+    }
+
+    .ecosystem-card p {
+      color: #2a4a68;
+      font-size: 0.92rem;
+      line-height: 1.7;
+      margin-bottom: 18px;
+    }
+
+    .ecosystem-card .external-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 28px;
+      border-radius: 60px;
+      background: linear-gradient(135deg, #0a2a44, #2b7bb6);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.85rem;
+      transition: all 0.3s;
+      box-shadow: 0 4px 16px rgba(0, 144, 201, 0.12);
+    }
+
+    .ecosystem-card .external-link:hover {
+      transform: translateX(4px);
+      box-shadow: 0 8px 28px rgba(0, 144, 201, 0.2);
+    }
+
+    .ecosystem-card .external-link i {
+      font-size: 0.8rem;
+      transition: transform 0.3s;
+    }
+
+    .ecosystem-card .external-link:hover i {
+      transform: translateX(4px);
+    }
+
+    /* ============================================================
+       SOLUTIONS
+       ============================================================ */
+    .solutions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 32px;
+      margin: 32px 0;
+    }
+
+    .solution-card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 28px;
+      padding: 32px 28px;
+      box-shadow: 0 8px 24px rgba(10,42,68,0.04);
+      border: 1px solid rgba(255,255,255,0.3);
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .solution-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 48px rgba(0, 144, 201, 0.08);
+      border-color: rgba(79, 179, 231, 0.1);
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    .solution-card i {
+      font-size: 2.4rem;
+      color: #0a2a44;
+      background: linear-gradient(135deg, #e7f0f9, #f0f7fc);
+      padding: 14px;
+      border-radius: 18px;
+      margin-bottom: 16px;
+      transition: 0.3s;
+    }
+
+    .solution-card:hover i {
+      background: linear-gradient(135deg, #0a2a44, #2b7bb6);
+      color: white;
+    }
+
+    .solution-card h3 {
+      font-family: 'Orbitron', monospace;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #0a1e30;
+      letter-spacing: 0.2px;
+    }
+
+    .solution-card p {
+      color: #2a4a68;
+      margin: 8px 0 16px;
+      line-height: 1.8;
+    }
+
+    .solution-card .learn-link {
+      color: #0a2a44;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 2px solid transparent;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+
+    .solution-card .learn-link:hover {
+      border-bottom-color: #0a2a44;
+      transform: translateX(4px);
+    }
+
+    /* ============================================================
+       RESEARCH
+       ============================================================ */
+    .research-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin: 32px 0;
+    }
+
+    .research-item {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 24px;
+      padding: 24px 30px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 4px 16px rgba(10,42,68,0.04);
+      border-left: 6px solid #4FB3E7;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-left-width: 6px;
+      transition: all 0.3s;
+    }
+
+    .research-item:hover {
+      transform: translateX(4px);
+      box-shadow: 0 8px 28px rgba(0, 144, 201, 0.06);
+    }
+
+    .research-item .content {
+      flex: 1;
+    }
+
+    .research-item .content h4 {
+      font-family: 'Orbitron', monospace;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #0a1e30;
+      letter-spacing: 0.2px;
+    }
+
+    .research-item .content p {
+      color: #2a4a68;
+      margin: 4px 0 0;
+      font-size: 0.95rem;
+    }
+
+    .research-item .meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 8px;
+      flex-wrap: wrap;
+    }
+
+    .research-item .meta span {
+      background: rgba(0, 144, 201, 0.04);
+      padding: 4px 16px;
+      border-radius: 40px;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: #1a4b6d;
+      border: 1px solid rgba(0, 144, 201, 0.04);
+    }
+
+    .research-item .badge {
+      background: linear-gradient(135deg, #0a2a44, #2b7bb6);
+      color: white;
+      padding: 6px 22px;
+      border-radius: 60px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      font-family: 'Orbitron', monospace;
+      box-shadow: 0 4px 16px rgba(0, 144, 201, 0.1);
+    }
+
+    /* ============================================================
+       GENERIC PAGES
+       ============================================================ */
+    .generic-page h2 {
+      font-family: 'Orbitron', monospace;
+      font-weight: 900;
+      font-size: 2.2rem;
+      color: #0a2a44;
+      margin-bottom: 8px;
+      letter-spacing: 0.3px;
+    }
+
+    .generic-page h2 i {
+      color: #1a4b6d;
+      margin-right: 12px;
+    }
+
+    .generic-page .subtitle {
+      color: #1f3f5c;
+      font-size: 1.05rem;
+      max-width: 700px;
+      margin-bottom: 28px;
+    }
+
+    .generic-page .content-card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 28px;
+      padding: 32px 36px;
+      box-shadow: 0 8px 24px rgba(10,42,68,0.04);
+      border: 1px solid rgba(255,255,255,0.3);
+      margin-bottom: 24px;
+    }
+
+    .generic-page .content-card h3 {
+      font-family: 'Orbitron', monospace;
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #0a1e30;
+      margin-bottom: 12px;
+      letter-spacing: 0.2px;
+    }
+
+    .generic-page .content-card p {
+      color: #2a4a68;
+      line-height: 1.9;
+      margin-bottom: 12px;
+    }
+
+    .generic-page .content-card ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .generic-page .content-card ul li {
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+      color: #1f3f5c;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .generic-page .content-card ul li i {
+      color: #2b7bb6;
+      width: 20px;
+    }
+
+    .generic-page .content-card ul li:last-child {
+      border-bottom: none;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      margin-top: 16px;
+    }
+
+    .team-member {
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.2);
+      backdrop-filter: blur(4px);
+      transition: 0.3s;
+    }
+
+    .team-member:hover {
+      transform: translateY(-4px);
+      background: rgba(255, 255, 255, 0.7);
+    }
+
+    .team-member i {
+      font-size: 2.8rem;
+      color: #0a2a44;
+      background: linear-gradient(135deg, #e7f0f9, #f0f7fc);
+      padding: 16px;
+      border-radius: 50%;
+      margin-bottom: 12px;
+    }
+
+    .team-member h4 {
+      font-weight: 700;
+      color: #0a1e30;
+    }
+
+    .team-member p {
+      color: #2a4a68;
+      font-size: 0.85rem;
+    }
+
+    /* ============================================================
+       FOOTER       ============================================================ */
+    .footer {
+      background: rgba(8, 15, 31, 0.85);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      color: #cde2f5;
+      padding: 32px 40px 24px;
+      border-top: 1px solid rgba(79, 179, 231, 0.06);
+      margin-top: 20px;
+    }
+
+    .footer-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px 40px;
+    }
+
+    .footer-col {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-width: 140px;
+    }
+
+    .footer-col h4 {
+      font-family: 'Orbitron', monospace;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      margin-bottom: 6px;
+    }
+
+    .footer-col a {
+      color: #8bb0cc;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: all 0.3s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+    }
+
+    .footer-col a:hover {
+      color: white;
+      transform: translateX(4px);
+    }
+
+    .footer-col a i {
+      font-size: 0.7rem;
+      opacity: 0.4;
+    }
+
+    .footer-bottom {
+      max-width: 1280px;
+      margin: 24px auto 0;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.04);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.8rem;
+      color: #6a8fa8;
+      font-family: 'Orbitron', monospace;
+      letter-spacing: 0.4px;
+    }
+
+    .footer-bottom a {
+      color: #6a8fa8;
+      text-decoration: none;
+      transition: 0.15s;
+      cursor: pointer;
+    }
+
+    .footer-bottom a:hover {
+      color: white;
+    }
+
+    /* ============================================================
+       RESPONSIVE
+       ============================================================ */
+    @media (max-width: 820px) {
+      .header {
+        padding: 12px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .header-status {
+        width: 100%;
+        justify-content: flex-start;
+      }
+      .nav-links {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 2px;
+      }
+      .nav-links a {
+        font-size: 0.75rem;
+        padding: 6px 12px;
+      }
+      .header-text h1 {
+        font-size: 1.4rem;
+      }
+      .header-text .tagline {
+        font-size: 0.7rem;
+      }
+      .main-container {
+        padding: 20px 16px 30px;
+      }
+      .welcome-section h2 {
+        font-size: 2rem;
+        flex-wrap: wrap;
+      }
+      .ai-callout {
+        border-radius: 28px;
+        padding: 16px 20px;
+      }
+      .ai-callout .version-tag {
+        margin-left: 0;
+      }
+      .footer {
+        padding: 24px 20px 20px;
+      }
+      .footer-inner {
+        flex-direction: column;
+        gap: 24px;
+      }
+      .generic-page .content-card {
+        padding: 24px 20px;
+      }
+      .header-status .ai-indicator {
+        font-size: 0.6rem;
+        padding: 4px 12px 4px 10px;
+      }
+      .ecosystem-section {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header img {
+        height: 36px;
+      }
+      .header-text h1 {
+        font-size: 1.2rem;
+      }
+      .nav-links a {
+        font-size: 0.65rem;
+        padding: 4px 8px;
+      }
+      .welcome-section h2 {
+        font-size: 1.5rem;
+      }
+      .welcome-section h2 i {
+        font-size: 1.3rem;
+        padding: 8px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="header">
+  <div class="logo-wrapper">
+    <!-- Logo hosted on your own domain -->
+    <img src="/logo-512.png" alt="ClearPro AI Logo - Clinical Intelligence Platform" />
+    <div class="header-text">
+      <h1>ClearPro</h1>
+      <div class="tagline">
+        <i class="fas fa-microchip"></i> AI Technologies &amp; Innovation
+        <span class="ai-pulse">
+          <i class="fas fa-circle"></i> Neural Core v3.0
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <nav class="nav-links">
+    <a href="#" class="active" data-page="home"><i class="fas fa-house"></i> Home</a>
+    <a href="#" data-page="solutions"><i class="fas fa-cubes"></i> Solutions</a>
+    <a href="#" data-page="research"><i class="fas fa-flask"></i> Research</a>
+    <a href="#" data-page="about"><i class="fas fa-info-circle"></i> About</a>
+    <a href="#" data-page="careers"><i class="fas fa-briefcase"></i> Careers</a>
+    <a href="#" data-page="contact"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+
+  <div class="header-status">
+    <div class="ai-indicator">
+      <span class="dot"></span>
+      <span><strong>AI</strong> · 12 models</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+     MAIN
+     ============================================================ -->
+<div class="main-container">
+
+  <!-- ======== HOME ======== -->
+  <div id="page-home" class="page active-page">
+    <div class="welcome-section">
+      <div class="badge-row">
+        <span><i class="fas fa-circle-check"></i> Next-Gen AI</span>
+        <span><i class="fas fa-shield-alt"></i> Enterprise Grade</span>
+        <span><i class="fas fa-rocket"></i> v3.0</span>
+      </div>
+      <h2><i class="fas fa-brain"></i> ClearPro AI</h2>
+      <div class="subhead">
+        <strong>Intelligent case orchestration</strong> · enterprise‑grade clinical decision support
+        powered by adaptive AI, real‑time data fusion, and explainable models.
+      </div>
+    </div>
+
+    <div class="innovation-grid">
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-robot"></i></div>
+        <h3>Adaptive Intelligence</h3>
+        <p>Self‑optimizing neural models that learn from each case, delivering precision insights with full explainability.</p>
+        <span class="pill"><i class="fas fa-arrow-right"></i> v2.1</span>
+      </div>
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-database"></i></div>
+        <h3>Federated Data Core</h3>
+        <p>Privacy‑first architecture unifying EHR, imaging, and genomics under one secure, auditable layer.</p>
+        <span class="pill"><i class="fas fa-shield-alt"></i> HIPAA</span>
+      </div>
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Predictive Pathways</h3>
+        <p>Proactive risk stratification and outcome forecasting, enabling preemptive interventions at scale.</p>
+        <span class="pill"><i class="fas fa-clock"></i> real‑time</span>
+      </div>
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-code-branch"></i></div>
+        <h3>Innovation Engine</h3>
+        <p>Continuous integration of SOTA research -- from transformers to diffusion models -- into clinical workflow.</p>
+        <span class="pill"><i class="fas fa-flask"></i> R&amp;D</span>
+      </div>
+    </div>
+
+    <!-- ==========================================================
+         ECOSYSTEM CARDS
+         ========================================================== -->
+    <div class="ecosystem-section">
+      <div class="ecosystem-card">
+        <div class="icon-wrap"><i class="fas fa-bone"></i></div>
+        <h3>ClearPro Ortho</h3>
+        <p>Professional case analysis for complex orthodontic cases using our structured 4-dimensional assessment framework. Enhance your clinical judgment with expert consultation.</p>
+        <a href="https://www.clearpro-ortho.com" target="_blank" class="external-link">
+          Visit <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="ecosystem-card">
+        <div class="icon-wrap"><i class="fas fa-university"></i></div>
+        <h3>NDA Institute</h3>
+        <p>The NDA framework reveals that intelligence isn't bound by physical three-dimensional constraints. Cognitive processes naturally unfold in higher-dimensional manifolds, where thoughts, memories, and decisions exist in expanded geometric configurations beyond our perceptual limits.</p>
+        <a href="https://www.nda-institute.org" target="_blank" class="external-link">
+          Visit <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="ai-callout">
+      <span><i class="fas fa-rocket" style="color:#0a2a44;"></i> ClearPro Innovation Lab</span>
+      <span class="metric"><i class="fas fa-circle-check"></i> 12 models deployed <span style="opacity:0.3;">|</span> <i class="fas fa-arrow-trend-up"></i> 94.7% accuracy</span>
+      <span class="version-tag"><i class="fas fa-bolt"></i> v3.0</span>
+    </div>
+  </div>
+
+  <!-- ======== SOLUTIONS ======== -->
+  <div id="page-solutions" class="page">
+    <h2 style="font-family:'Orbitron',monospace; font-weight:900; font-size:2.2rem; color:#0a2a44; margin-bottom:8px; letter-spacing:0.3px;"><i class="fas fa-cubes" style="color:#1a4b6d;"></i> Enterprise AI Solutions</h2>
+    <p style="color:#1f3f5c; font-size:1.05rem; max-width:700px; margin-bottom:24px;">End‑to‑end clinical intelligence tailored for health systems, payers, and life sciences.</p>
+    <div class="solutions-grid">
+      <div class="solution-card">
+        <i class="fas fa-stethoscope"></i>
+        <h3>Clinical Decision Support</h3>
+        <p>Real‑time, evidence‑based recommendations integrated with EHR workflows. Reduce diagnostic errors and improve patient outcomes.</p>
+        <a href="#" class="learn-link" data-page="solutions">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="solution-card">
+        <i class="fas fa-dna"></i>
+        <h3>Genomic &amp; Precision Medicine</h3>
+        <p>AI‑powered interpretation of genomic data, variant prioritization, and pharmacogenomic insights for personalized care.</p>
+        <a href="#" class="learn-link" data-page="solutions">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="solution-card">
+        <i class="fas fa-hospital-user"></i>
+        <h3>Population Health Analytics</h3>
+        <p>Predictive risk scoring, patient stratification, and intervention planning at scale. Built for accountable care organizations.</p>
+        <a href="#" class="learn-link" data-page="solutions">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+      <div class="solution-card">
+        <i class="fas fa-robot"></i>
+        <h3>Automated Case Management</h3>
+        <p>Intelligent triage, documentation, and follow‑up. Reduce administrative burden and accelerate care coordination.</p>
+        <a href="#" class="learn-link" data-page="solutions">Learn more <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== RESEARCH ======== -->
+  <div id="page-research" class="page">
+    <h2 style="font-family:'Orbitron',monospace; font-weight:900; font-size:2.2rem; color:#0a2a44; margin-bottom:4px; letter-spacing:0.3px;"><i class="fas fa-flask" style="color:#1a4b6d;"></i> Research &amp; Innovation</h2>
+    <p style="color:#1f3f5c; font-size:1.05rem; max-width:700px; margin-bottom:24px;">Cutting‑edge AI research translated into clinical practice.</p>
+    <div class="research-list">
+      <div class="research-item">
+        <div class="content">
+          <h4>Transformer‑based EHR modelling</h4>
+          <p>Self‑supervised learning on 2M+ patient records. Achieved 0.92 AUROC for early sepsis prediction.</p>
+          <div class="meta"><span><i class="far fa-calendar-alt"></i> 2025</span><span>Nature Digital Health</span></div>
+        </div>
+        <span class="badge"><i class="fas fa-arrow-trend-up"></i> 94%</span>
+      </div>
+      <div class="research-item">
+        <div class="content">
+          <h4>Federated learning for rare disease</h4>
+          <p>Privacy‑preserving multi‑institutional training for orphan diseases. Improved diagnostic yield by 28%.</p>
+          <div class="meta"><span><i class="far fa-calendar-alt"></i> 2026</span><span>NEJM AI</span></div>
+        </div>
+        <span class="badge"><i class="fas fa-shield-alt"></i> privacy</span>
+      </div>
+      <div class="research-item">
+        <div class="content">
+          <h4>Multimodal imaging + genomics</h4>
+          <p>Fusion of MRI, pathology slides, and genomic profiles for glioblastoma subtyping and survival prediction.</p>
+          <div class="meta"><span><i class="far fa-calendar-alt"></i> 2025</span><span>Radiology AI</span></div>
+        </div>
+        <span class="badge"><i class="fas fa-microscope"></i> multimodal</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== ABOUT ======== -->
+  <div id="page-about" class="page generic-page">
+    <h2><i class="fas fa-info-circle"></i> About ClearPro AI</h2>
+    <p class="subtitle">Pioneering the future of clinical intelligence with responsible AI.</p>
+    <div class="content-card">
+      <h3>Our Mission</h3>
+      <p>To empower clinicians and researchers with adaptive AI that transforms complex data into actionable insights -- improving patient outcomes, reducing costs, and accelerating discovery.</p>
+      <h3>Leadership</h3>
+      <div class="team-grid">
+        <div class="team-member"><i class="fas fa-user-tie"></i><h4>Dr. Sarah Chen</h4><p>CEO &amp; Co‑founder</p></div>
+        <div class="team-member"><i class="fas fa-user-tie"></i><h4>Dr. Michael Torres</h4><p>CTO, AI Research</p></div>
+        <div class="team-member"><i class="fas fa-user-tie"></i><h4>Dr. Priya Sharma</h4><p>Chief Medical Officer</p></div>
+        <div class="team-member"><i class="fas fa-user-tie"></i><h4>James Okafor</h4><p>VP Engineering</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== CAREERS ======== -->
+  <div id="page-careers" class="page generic-page">
+    <h2><i class="fas fa-briefcase"></i> Careers at ClearPro</h2>
+    <p class="subtitle">Join us in building the next generation of AI for healthcare.</p>
+    <div class="content-card">
+      <h3>Open Positions</h3>
+      <ul>
+        <li><i class="fas fa-chevron-right"></i> Senior AI Research Scientist -- Boston, MA</li>
+        <li><i class="fas fa-chevron-right"></i> Full‑Stack Engineer (HealthTech) -- Remote</li>
+        <li><i class="fas fa-chevron-right"></i> Clinical Data Strategist -- London, UK</li>
+        <li><i class="fas fa-chevron-right"></i> Product Manager, AI Platforms -- San Francisco, CA</li>
+        <li><i class="fas fa-chevron-right"></i> Machine Learning Ops Engineer -- Remote</li>
+      </ul>
+      <p style="margin-top:16px;"><i class="fas fa-envelope" style="color:#2b7bb6;"></i> Send your CV to <strong>careers@clearpro.ai</strong></p>
+    </div>
+  </div>
+
+  <!-- ======== CONTACT ======== -->
+  <div id="page-contact" class="page generic-page">
+    <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+    <p class="subtitle">Get in touch with our team for demos, partnerships, or support.</p>
+    <div class="content-card">
+      <p><i class="fas fa-map-pin" style="color:#2b7bb6; width:24px;"></i> <strong>Global HQ:</strong> 88 Innovation Drive, Cambridge, MA 02139</p>
+      <p><i class="fas fa-phone" style="color:#2b7bb6; width:24px;"></i> <strong>Phone:</strong> +1 (888) 555‑0199</p>
+      <p><i class="fas fa-envelope" style="color:#2b7bb6; width:24px;"></i> <strong>Email:</strong> info@clearpro.ai</p>
+      <p><i class="fas fa-clock" style="color:#2b7bb6; width:24px;"></i> <strong>Support:</strong> 24/7 enterprise support</p>
+      <hr style="margin:20px 0; border-color:rgba(0,0,0,0.04);" />
+      <p><i class="fas fa-comment" style="color:#2b7bb6;"></i> For press inquiries: <strong>pr@clearpro.ai</strong></p>
+    </div>
+  </div>
+
+  <!-- ======== PRODUCTS ======== -->
+  <div id="page-products" class="page generic-page">
+    <h2><i class="fas fa-cube"></i> Our Products</h2>
+    <p class="subtitle">Explore the ClearPro AI suite.</p>
+    <div class="content-card">
+      <ul>
+        <li><i class="fas fa-chevron-right"></i> <strong>ClearPro CDS</strong> -- Clinical Decision Support platform</li>
+        <li><i class="fas fa-chevron-right"></i> <strong>ClearPro Genomics</strong> -- AI‑powered genomic interpretation</li>
+        <li><i class="fas fa-chevron-right"></i> <strong>ClearPro Population</strong> -- Population health analytics</li>
+        <li><i class="fas fa-chevron-right"></i> <strong>ClearPro Automate</strong> -- Intelligent case management</li>
+        <li><i class="fas fa-chevron-right"></i> <strong>ClearPro Research</strong> -- Federated research platform</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ======== RESOURCES ======== -->
+  <div id="page-resources" class="page generic-page">
+    <h2><i class="fas fa-book-open"></i> Resources</h2>
+    <p class="subtitle">Documentation, whitepapers, and developer tools.</p>
+    <div class="content-card">
+      <ul>
+        <li><i class="fas fa-file-pdf"></i> <a href="#" style="color:#0a2a44; text-decoration:none;">Whitepaper: Federated Learning in Healthcare</a></li>
+        <li><i class="fas fa-file-pdf"></i> <a href="#" style="color:#0a2a44; text-decoration:none;">API Reference v3.0</a></li>
+        <li><i class="fas fa-video"></i> <a href="#" style="color:#0a2a44; text-decoration:none;">Product Demo Library</a></li>
+        <li><i class="fas fa-graduation-cap"></i> <a href="#" style="color:#0a2a44; text-decoration:none;">ClearPro Academy -- Training &amp; Certification</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ======== LEGAL ======== -->
+  <div id="page-legal" class="page generic-page">
+    <h2><i class="fas fa-gavel"></i> Legal &amp; Compliance</h2>
+    <p class="subtitle">Transparency, security, and regulatory adherence.</p>
+    <div class="content-card">
+      <h3>Privacy Policy</h3>
+      <p>ClearPro AI is committed to data privacy. We adhere to HIPAA, GDPR, and SOC2 Type II standards. All data is encrypted at rest and in transit.</p>
+      <h3>Terms of Service</h3>
+      <p>Our platform is provided under a enterprise‑grade SLA. For full terms, please contact our legal team at <strong>legal@clearpro.ai</strong>.</p>
+      <h3>Security</h3>
+      <p>We undergo annual third‑party audits and maintain a comprehensive vulnerability management program.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>ClearPro AI</h4>
+      <a data-page="about"><i class="fas fa-arrow-right"></i> About</a>
+      <a data-page="careers"><i class="fas fa-arrow-right"></i> Careers</a>
+      <a data-page="contact"><i class="fas fa-arrow-right"></i> Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a data-page="products"><i class="fas fa-arrow-right"></i> All Products</a>
+      <a data-page="solutions"><i class="fas fa-arrow-right"></i> Clinical CDS</a>
+      <a data-page="solutions"><i class="fas fa-arrow-right"></i> Genomics</a>
+      <a data-page="solutions"><i class="fas fa-arrow-right"></i> Population Health</a>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <a data-page="research"><i class="fas fa-arrow-right"></i> Research</a>
+      <a data-page="resources"><i class="fas fa-arrow-right"></i> Documentation</a>
+      <a data-page="resources"><i class="fas fa-arrow-right"></i> Support</a>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a data-page="legal"><i class="fas fa-arrow-right"></i> Privacy</a>
+      <a data-page="legal"><i class="fas fa-arrow-right"></i> Terms</a>
+      <a data-page="legal"><i class="fas fa-arrow-right"></i> Security</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span><i class="fas fa-copyright"></i> 2026 ClearPro AI</span>
+    <span><i class="fas fa-people-group"></i> trusted by 200+</span>
+  </div>
+</footer>
+
+<!-- ============================================================
+     SCRIPT
+     ============================================================ -->
+<script>
+  (function() {
+    const pageIds = ['home', 'solutions', 'research', 'about', 'careers', 'contact', 'products', 'resources', 'legal'];
+    const pages = {};
+    pageIds.forEach(id => {
+      pages[id] = document.getElementById('page-' + id);
+    });
+
+    const navLinks = document.querySelectorAll('.nav-links a[data-page], .footer-col a[data-page], .learn-link[data-page]');
+
+    function activatePage(pageId) {
+      Object.values(pages).forEach(p => {
+        if (p) p.classList.remove('active-page');
+      });
+      if (pages[pageId]) {
+        pages[pageId].classList.add('active-page');
+      }
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('data-page') === pageId) {
+          link.classList.add('active');
+        }
+      });
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const page = this.getAttribute('data-page');
+        if (page && pages[page]) {
+          activatePage(page);
+        }
+      });
+    });
+
+    // Default: home
+    activatePage('home');
+  })();
+</script>
+
+</body>
+</html>
